@@ -3,22 +3,21 @@
   "name": "Chemical Pyrolyzer",
   "description": "Synthesizes clean water by chemically neutralizing superheated slag with raw arkycite.",
   "size": 2,
-  "health": 1200,
+  "health": 1250,
   "category": "crafting",
   "hasPower": true,
   "hasLiquids": true,
   "hasItems": false,
   "craftTime": 60,
   "liquidCapacity": 60,
-  "craftEffect": "ventSteam",
   "consumes": {
-    "power": 15.0,
+    "power": 3.0,
     "liquids": [
       "slag/0.25",
-      "arkycite/0.25"
+      "arkycite/0.23"
     ]
   },
-  "outputLiquid": "water/0.7",
+  "outputLiquid": "water/0.35",
   "requirements": [
     "beryllium/150",
     "silicon/80",
@@ -30,6 +29,30 @@
       "beryllium/750",
       "silicon/400",
       "graphite/300"
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow-green",
+        "color": "84f491ff",
+        "blending": "additive",
+        "glowScale": 5,
+        "pulse": 4
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow-orange",
+        "color": "ffaa5fff",
+        "blending": "additive",
+        "glowScale": 5,
+        "pulse": 4
+      }
     ]
   }
 }
