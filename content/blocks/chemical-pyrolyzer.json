@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "name": "Chemical Pyrolyzer",
   "description": "Synthesizes clean water by chemically neutralizing superheated slag with raw arkycite.",
-  "size": 3,
+  "size": 2,
   "health": 1200,
   "category": "crafting",
   "hasPower": true,
