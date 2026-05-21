@@ -1,0 +1,65 @@
+{
+  "type": "NuclearReactor",
+  "name": "Beryllium Reactor",
+  "description": "Utilizes stabilized beryllium cores to generate massive amounts of power. Requires constant water cooling to prevent a catastrophic meltdown.",
+  "size": 2,
+  "health": 850,
+  "category": "power",
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemDuration": 360,
+  "powerProduction": 55.0,
+  "heating": 0.02,
+  "scorchPower": 1.2,
+  "explosionRadius": 18,
+  "explosionDamage": 1500,
+  "consumes": {
+    "items": [
+      "beryllium/1"
+    ],
+    "liquids": [
+      "water/0.2"
+    ]
+  },
+  "requirements": [
+    "beryllium/225",
+    "silicon/100",
+    "graphite/80",
+    "sand/150"
+  ],
+  "research": {
+    "parent": "turbine-condenser",
+    "requirements": [
+      "beryllium/1125",
+      "silicon/500",
+      "graphite/400",
+      "sand/750"
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "1f4e37",
+        "glowScale": 6,
+        "pulse": 0.6,
+        "alpha": 0.8
+      },
+      {
+        "type": "DrawGlowRegion",
+        "color": "76c6a0",
+        "glowScale": 3,
+        "pulse": 0.4,
+        "alpha": 0.5
+      },
+      {
+        "type": "DrawHeatOutput"
+      }
+    ]
+  }
+}
