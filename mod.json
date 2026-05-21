@@ -1,1 +1,7 @@
-
+{
+  "name": "erekir-expanded",
+  "displayName": "Erekir Expanded Pack",
+  "author": "main-pilot5",
+  "description": "A massive expansion mod adding new advanced power systems, defensive walls, automated turrets, specialized units, and more to the game.",
+  "version": "1.0",
+  "minGameVersion": "157"
