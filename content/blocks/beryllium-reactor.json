@@ -3,15 +3,15 @@
   "name": "Beryllium Reactor",
   "description": "Utilizes stabilized beryllium cores to generate massive amounts of power. Requires constant water cooling to prevent a catastrophic meltdown.",
   "size": 2,
-  "health": 850,
+  "health": 1250,
   "category": "power",
   "hasPower": true,
   "hasItems": true,
   "hasLiquids": true,
   "itemDuration": 360,
   "powerProduction": 55.0,
-  "heating": 0.02,
-  "scorchPower": 1.2,
+  "heating": 0.03,
+  "scorchPower": 1.3,
   "explosionRadius": 18,
   "explosionDamage": 1500,
   "consumes": {
@@ -19,13 +19,13 @@
       "beryllium/1"
     ],
     "liquids": [
-      "water/0.2"
+      "water/0.35"
     ]
   },
   "requirements": [
     "beryllium/225",
     "silicon/100",
-    "graphite/80",
+    "graphite/85",
     "sand/150"
   ],
   "research": {
