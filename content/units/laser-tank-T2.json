@@ -1,0 +1,38 @@
+{
+  "type": "tank",
+  "name": "Plasma Tank",
+  "description": "An armored assault vehicle that fires dense plasma pulses. Engineered for heavy frontline engagements.",
+  "hitSize": 20,
+  "health": 1400,
+  "armor": 8,
+  "speed": 1.9,
+  "rotateSpeed": 2.8,
+  "omniMotion": false,
+  "faceTarget": true,
+  "outlineColor": "2c2d38",
+  "weapons": [
+    {
+      "name": "plasma-cannon",
+      "x": 0,
+      "y": 2,
+      "shootY": 6,
+      "mirror": false,
+      "reload": 35,
+      "recoil": 3.0,
+      "shootSound": "malignShoot",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 65,
+        "speed": 6.5,
+        "lifetime": 28,
+        "width": 11,
+        "height": 14,
+        "backColor": "ff9e59",
+        "frontColor": "ffffff",
+        "trailColor": "ff9e59",
+        "trailWidth": 3,
+        "trailLength": 10
+      }
+    }
+  ]
+}
