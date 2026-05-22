@@ -1,0 +1,32 @@
+{
+  "type": "ItemTurret",
+  "name": "Apex",
+  "description": "A monumental magnetic rail accelerator. Fires a devastating, hyper-velocity piercing slug over extreme distances.",
+  "size": 3,
+  "health": 2200,
+  "range": 360,
+  "reload": 240,
+  "recoil": 7.0,
+  "cooldownTime": 180,
+  "chargeTime": 60,
+  "shootSound": "railgun",
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "durasteel": {
+      "type": "RailBulletType",
+      "damage": 450,
+      "length": 380,
+      "pierce": true,
+      "updateEffect": "railTrail",
+      "hitEffect": "massiveExplosion"
+    }
+  },
+  "requirements": [
+    "durasteel/200",
+    "tungsten/300",
+    "silicon/250"
+  ],
+  "category": "turret",
+  "research": "fracture"
+}
