@@ -1,0 +1,23 @@
+{
+  "type": "Wall",
+  "name": "Small Durasteel Wall",
+  "description": "A basic defensive block made from reinforced durasteel alloy. Protects vital structures.",
+  "size": 1,
+  "health": 800,
+  "category": "defense",
+  "requirements": [
+    "durasteel/15"
+  ],
+  "research": {
+    "parent": "tungsten-wall",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "basin"
+      }
+    ],
+    "requirements": [
+      "durasteel/150"
+    ]
+  }
+}
