@@ -1,0 +1,30 @@
+{
+  "type": "ContinuousTurret",
+  "name": "Glowspire",
+  "description": "Projects a sustained, high-intensity thermal laser beam optimized to trace and melt high-altitude airborne targets.",
+  "size": 3,
+  "health": 1400,
+  "range": 240,
+  "targetAir": true,
+  "targetGround": true,
+  "hasPower": true,
+  "consumes": {
+    "power": 6.0,
+    "liquid": "cyanogen/0.1"
+  },
+  "shootType": {
+    "type": "ContinuousLaserBulletType",
+    "damage": 50,
+    "length": 250,
+    "width": 6,
+    "colors": ["ff7272", "ff3b3b", "ffffff"],
+    "incendChance": 0.2
+  },
+  "requirements": [
+    "tungsten/200",
+    "silicon/180",
+    "oxide/80"
+  ],
+  "category": "turret",
+  "research": "gimbal"
+}
