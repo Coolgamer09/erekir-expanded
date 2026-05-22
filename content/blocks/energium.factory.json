@@ -11,7 +11,7 @@
   "consumes": {
     "power": 2.0,
     "items": [
-      "thorium/2",
+      "oxide/2",
       "silicon/3"
     ]
   },
