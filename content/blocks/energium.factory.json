@@ -1,0 +1,36 @@
+{
+  "type": "GenericCrafter",
+  "name": "Energium Factory",
+  "description": "Synthesizes raw materials into dense Energium fuel cores.",
+  "size": 2,
+  "health": 400,
+  "category": "crafting",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 120,
+  "consumes": {
+    "power": 2.0,
+    "items": [
+      "thorium/2",
+      "silicon/3"
+    ]
+  },
+  "outputItem": "energium/1",
+  "requirements": [
+    "tungsten/120",
+    "silicon/90"
+  ],
+  "research": {
+    "parent": "durasteel-factory",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "peaks"
+      }
+    ],
+    "requirements": [
+      "tungsten/600",
+      "silicon/450"
+    ]
+  }
+}
