@@ -1,0 +1,9 @@
+{
+  "type": "item",
+  "name": "Durasteel",
+  "description": "A highly dense, structurally reinforced alloy used for heavy industrial engineering and advanced defenses.",
+  "color": "7a8a9e",
+  "cost": 1.5,
+  "hardness": 4,
+  "hidden": false
+}
