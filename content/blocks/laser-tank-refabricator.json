@@ -1,0 +1,38 @@
+{
+  "type": "UnitFactory",
+  "name": "laser Tank Refabricator",
+  "size": 3,
+  "consumes": {
+    "power": 2.0
+  },
+  "plans": [
+    {
+      "unit": "laser-tank",
+      "time": 1080,
+      "requirements": [
+        "silicon/40",
+        "durasteel/25",
+        "energium/5"
+      ]
+    }
+  ],
+  "requirements": [
+    "beryllium/150",
+    "tungsten/80",
+    "silicon/60"
+  ],
+  "category": "units",
+  "research": {
+    "parent": "brede",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "basin"
+      }
+    ],
+    "requirements": [
+      "silicon/600",
+      "durasteel/300"
+    ]
+  }
+}
