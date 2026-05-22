@@ -1,0 +1,22 @@
+{
+  "type": "OverdriveTower",
+  "name": "Null-Point",
+  "description": "Industrial thermal dampener field. Consumes hydrazine coolant to minimize system overhead, drastically overdriving nearby turrets and industry.",
+  "size": 3,
+  "health": 1150,
+  "range": 160,
+  "speedBoost": 1.4,
+  "useTime": 60,
+  "hasLiquids": true,
+  "consumes": {
+    "power": 4.0,
+    "liquid": "hydrazine/0.15"
+  },
+  "requirements": [
+    "tungsten/250",
+    "silicon/200",
+    "durasteel/100"
+  ],
+  "category": "utility",
+  "research": "hydrazine-infuser"
+}
