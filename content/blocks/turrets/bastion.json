@@ -1,24 +1,24 @@
 {
   "type": "ItemTurret",
   "name": "Bastion",
-  "description": "An heavily reinforced citadel defense structure boasting an indestructible hull profile. Pulverizes close-range threats with shattering flak bursts.",
+  "description": "A heavily reinforced citadel defense structure boasting an indestructible hull profile. Pulverizes close-range threats with shattering flak bursts.",
   "size": 4,
   "health": 8550.5,
   "armor": 35,
   "range": 180,
-  "reload": 45,
+  "reload": 40,
   "shots": 10,
-  "inaccuracy": 10,
+  "inaccuracy": 15,
   "targetAir": true,
   "targetGround": true,
   "ammoTypes": {
     "durasteel": {
-      "speed": 10.0,
-      "damage": 65,
-      "width": 10,
-      "height": 13,
+      "speed": 6.0,
+      "damage": 150,
+      "width": 15,
+      "height": 15,
       "lifetime": 30,
-      "splashDamage": 30,
+      "splashDamage": 35,
       "splashDamageRadius": 30
     }
   },
@@ -28,5 +28,18 @@
     "carbide/200"
   ],
   "category": "turret",
-  "research": "apex"
+  "research": {
+    "parent": "apex",
+    "objectives": [
+      {
+        "type": "Produce",
+        "item": "carbide"
+      }
+    ],
+    "requirements": [
+      "durasteel/5000",
+      "tungsten/6000",
+      "carbide/2000"
+    ]
+  }
 }
