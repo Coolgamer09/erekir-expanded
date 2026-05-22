@@ -1,0 +1,70 @@
+{
+  "type": "tank",
+  "name": "Singularity Tank",
+  "description": "The ultimate vanguard dreadnought. Features an AOE singularity main cannon, dual secondary splash arrays, and maximum-tier localized repair matrixes.",
+  "hitSize": 52,
+  "health": 10000,
+  "armor": 45,
+  "speed": 0.9,
+  "rotateSpeed": 1.0,
+  "omniMotion": false,
+  "faceTarget": true,
+  "outlineColor": "2c2d38",
+  "abilities": [
+    {
+      "type": "RepairAbility",
+      "amount": 50,
+      "reload": 60,
+      "radius": 0
+    }
+  ],
+  "weapons": [
+    {
+      "name": "singularity-main-cannon",
+      "x": 0,
+      "y": 6,
+      "shootY": 16,
+      "mirror": false,
+      "reload": 300,
+      "recoil": 6.0,
+      "shootSound": "laserblast",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "damage": 75,
+        "speed": 4.5,
+        "lifetime": 60,
+        "width": 24,
+        "height": 24,
+        "splashDamage": 19,
+        "splashDamageRadius": 80,
+        "backColor": "7934d1",
+        "frontColor": "ffffff",
+        "hitEffect": "nuclearShockwave",
+        "smokeEffect": "shootBigSmoke"
+      }
+    },
+    {
+      "name": "singularity-secondary-cannon",
+      "x": 12,
+      "y": -2,
+      "shootY": 6,
+      "mirror": true,
+      "reload": 150,
+      "recoil": 2.0,
+      "shootSound": "bolt",
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 15,
+        "speed": 5.5,
+        "lifetime": 40,
+        "width": 10,
+        "height": 14,
+        "splashDamage": 8,
+        "splashDamageRadius": 40,
+        "backColor": "a773e8",
+        "frontColor": "ffffff",
+        "hitEffect": "blastExplosion"
+      }
+    }
+  ]
+}
