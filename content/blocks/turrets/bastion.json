@@ -1,0 +1,32 @@
+{
+  "type": "ItemTurret",
+  "name": "Bastion",
+  "description": "An heavily reinforced citadel defense structure boasting an indestructible hull profile. Pulverizes close-range threats with shattering flak bursts.",
+  "size": 4,
+  "health": 8550.5,
+  "armor": 35,
+  "range": 180,
+  "reload": 45,
+  "shots": 10,
+  "inaccuracy": 10,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "durasteel": {
+      "speed": 10.0,
+      "damage": 65,
+      "width": 10,
+      "height": 13,
+      "lifetime": 30,
+      "splashDamage": 30,
+      "splashDamageRadius": 30
+    }
+  },
+  "requirements": [
+    "durasteel/500",
+    "tungsten/600",
+    "carbide/200"
+  ],
+  "category": "turret",
+  "research": "apex"
+}
