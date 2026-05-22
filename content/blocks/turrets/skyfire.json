@@ -1,36 +1,36 @@
 {
   "type": "ItemTurret",
   "name": "Skyfire",
-  "description": "High-velocity tactical intercept system. Tracks down and locks onto fast-moving enemy flight lines with deadly homing munitions.",
+  "description": "A tactical intercept system. Tracks down and locks onto fast-moving enemy flight lines with deadly homing munitions.",
   "size": 3,
-  "health": 1500,
+  "health": 1750,
   "range": 320,
-  "reload": 10,
+  "reload": 15,
   "targetAir": true,
   "targetGround": true,
   "ammoTypes": {
     "silicon": {
       "type": "MissileBulletType",
-      "speed": 7.0,
-      "damage": 35,
+      "speed": 8.0,
+      "damage": 50,
       "width": 8,
-      "height": 11,
+      "height": 12,
       "lifetime": 46,
-      "homingPower": 0.25,
+      "homingPower": 0.35,
       "homingRange": 100,
       "backColor": "86b0ff"
     },
     "surge-alloy": {
       "type": "MissileBulletType",
-      "speed": 8.5,
-      "damage": 65,
+      "speed": 9.5,
+      "damage": 150,
       "width": 9,
       "height": 13,
       "lifetime": 38,
-      "homingPower": 0.35,
+      "homingPower": 0.50,
       "homingRange": 150,
       "lightning": 5,
-      "lightningDamage": 15,
+      "lightningDamage": 45,
       "backColor": "e8db74"
     }
   },
@@ -40,5 +40,18 @@
     "oxide/120"
   ],
   "category": "turret",
-  "research": "glowspire"
+  "research": {
+    "parent": "voltaz",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "peaks"
+      }
+    ],
+    "requirements": [
+      "tungsten/3000",
+      "silicon/2500",
+      "oxide/1200"
+    ]
+  }
 }
