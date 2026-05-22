@@ -1,0 +1,23 @@
+{
+  "type": "Wall",
+  "name": "Large Durasteel Wall",
+  "description": "A larger, more durable section of durasteel walling. Spreads incoming damage across a wider area.",
+  "size": 2,
+  "health": 3200,
+  "category": "defense",
+  "requirements": [
+    "durasteel/35"
+  ],
+  "research": {
+    "parent": "durasteel-wall",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "peaks" 
+      }
+    ],
+    "requirements": [
+      "durasteel/350"
+    ]
+  }
+}
