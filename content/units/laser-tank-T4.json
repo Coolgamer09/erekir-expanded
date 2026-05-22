@@ -1,0 +1,41 @@
+{
+  "type": "tank",
+  "name": "Quantum Tank",
+  "description": "A massive, heavily armored dreadnought tank. Fires unstable energy spheres that detonate on impact, dealing devastating area damage.",
+  "hitSize": 38,
+  "health": 8500,
+  "armor": 25,
+  "speed": 1.2,
+  "rotateSpeed": 1.4,
+  "omniMotion": false,
+  "faceTarget": true,
+  "outlineColor": "2c2d38",
+  "weapons": [
+    {
+      "name": "quantum-cannon",
+      "x": 0,
+      "y": 4,
+      "shootY": 12,
+      "mirror": false,
+      "reload": 120,
+      "recoil": 7.0,
+      "shootSound": "largeCannon",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "damage": 500,
+        "speed": 5.0,
+        "lifetime": 50,
+        "width": 22,
+        "height": 22,
+        "splashDamage": 350,
+        "splashDamageRadius": 60,
+        "backColor": "d13463",
+        "frontColor": "ffffff",
+        "trailColor": "d13463",
+        "trailWidth": 5,
+        "trailLength": 15,
+        "hitEffect": "blastExplosion"
+      }
+    }
+  ]
+}
