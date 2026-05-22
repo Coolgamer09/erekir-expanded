@@ -4,7 +4,7 @@
   "description": "Emits a localized nano-stabilization beam that constantly patches structure hulls and restores nearby allied units.",
   "size": 2,
   "health": 1500,
-  "range": 155,
+  "range": 150,
   "reload": 5,
   "hasPower": true,
   "consumes": {
@@ -13,9 +13,9 @@
   "shootType": {
     "type": "LaserBulletType",
     "damage": 0,
-    "healPercent": 15.5,
+    "healPercent": 35.75,
     "collidesTeam": true,
-    "length": 145,
+    "length": 160,
     "width": 8,
     "colors": ["84f4a3", "bbf9cc", "ffffff"]
   },
@@ -25,5 +25,18 @@
     "oxide/40"
   ],
   "category": "turret",
-  "research": "breach"
+  "research": {
+    "parent": "fracture",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "basin"
+      }
+    ],
+    "requirements": [
+      "beryllium/1500",
+      "silicon/900",
+      "oxide/400"
+    ]
+  }
 }
