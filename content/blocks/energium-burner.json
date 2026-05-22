@@ -3,7 +3,7 @@
   "name": "Energium Burner",
   "description": "Combusts refined Energium fuel cores under heavy water cooling to generate high-output electrical energy.",
   "size": 2,
-  "health": 600,
+  "health": 1000,
   "category": "power",
   "hasLiquids": true,
   "hasItems": true,
