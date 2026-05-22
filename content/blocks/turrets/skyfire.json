@@ -27,7 +27,7 @@
       "width": 9,
       "height": 13,
       "lifetime": 38,
-      "homingPower": 035,
+      "homingPower": 0.35,
       "homingRange": 150,
       "lightning": 5,
       "lightningDamage": 15,
