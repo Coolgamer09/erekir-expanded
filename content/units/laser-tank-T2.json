@@ -1,7 +1,7 @@
 {
   "type": "tank",
   "name": "Plasma Tank",
-  "description": "An armored assault vehicle that fires dense plasma pulses. Engineered for heavy frontline engagements.",
+  "description": "An armored assault vehicle that fires dense plasma pulses. Automatically constructs and deploys Advert support drones over time.",
   "hitSize": 20,
   "health": 1400,
   "armor": 8,
@@ -10,6 +10,15 @@
   "omniMotion": false,
   "faceTarget": true,
   "outlineColor": "2c2d38",
+  "abilities": [
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "advert",
+      "spawnTime": 5400,
+      "spawnX": 0,
+      "spawnY": -4
+    }
+  ],
   "weapons": [
     {
       "name": "plasma-cannon",
