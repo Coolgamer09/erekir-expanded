@@ -1,0 +1,43 @@
+{
+  "type": "UnitAssembler",
+  "name": "Flux Tank Ultrafabicator",
+  "size": 6,
+  "health": 1100,
+  "consumes": {
+    "power": 6.5,
+    "liquid": "hydrazine/0.12"
+  },
+  "plans": [
+    {
+      "unit": "flux-tank",
+      "time": 2700,
+      "requirements": [
+        "plasma-tank/1",
+        "durasteel/75",
+        "silicon/120",
+        "energium/30"
+      ]
+    }
+  ],
+  "requirements": [
+    "durasteel/250",
+    "tungsten/400",
+    "silicon/300",
+    "oxide/100"
+  ],
+  "category": "units",
+  "research": {
+    "parent": "plasma-tank-assembler",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "ravine"
+      }
+    ],
+    "requirements": [
+      "durasteel/1500",
+      "silicon/2000",
+      "energium/500"
+    ]
+  }
+}
