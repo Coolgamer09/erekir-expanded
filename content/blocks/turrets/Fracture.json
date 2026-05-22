@@ -1,0 +1,40 @@
+{
+  "type": "ItemTurret",
+  "name": "Fracture",
+  "description": "Discharges tightly grouped bursts of heavy shells engineered to crack and shatter the armor plates of advancing assault units.",
+  "size": 3,
+  "health": 1200,
+  "range": 210,
+  "reload": 50,
+  "shots": 5,
+  "shotDelay": 5.5,
+  "targetAir": false,
+  "targetGround": true,
+  "ammoTypes": {
+    "tungsten": {
+      "speed": 7.0,
+      "damage": 85,
+      "width": 10,
+      "height": 14,
+      "lifetime": 30,
+      "knockback": 2.0
+    },
+    "durasteel": {
+      "speed": 7.5,
+      "damage": 150,
+      "width": 12,
+      "height": 16,
+      "lifetime": 28,
+      "knockback": 40,
+      "pierce": true,
+      "pierceCap": 5
+    }
+  },
+  "requirements": [
+    "tungsten/150",
+    "silicon/100",
+    "durasteel/40"
+  ],
+  "category": "turret",
+  "research": "gimbal"
+}
