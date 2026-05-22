@@ -1,0 +1,29 @@
+{
+  "type": "LaserTurret",
+  "name": "Mendweaver",
+  "description": "Emits a localized nano-stabilization beam that constantly patches structure hulls and restores nearby allied units.",
+  "size": 2,
+  "health": 1500,
+  "range": 155,
+  "reload": 5,
+  "hasPower": true,
+  "consumes": {
+    "power": 2.5
+  },
+  "shootType": {
+    "type": "LaserBulletType",
+    "damage": 0,
+    "healPercent": 15.5,
+    "collidesTeam": true,
+    "length": 145,
+    "width": 8,
+    "colors": ["84f4a3", "bbf9cc", "ffffff"]
+  },
+  "requirements": [
+    "beryllium/150",
+    "silicon/90",
+    "oxide/40"
+  ],
+  "category": "turret",
+  "research": "breach"
+}
