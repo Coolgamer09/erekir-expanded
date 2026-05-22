@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Durasteel Factory",
+  "description": "Alloys beryllium and tungsten together using silicon matrices to form structurally superior durasteel plating.",
+  "size": 2,
+  "health": 1500,
+  "category": "crafting",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 90,
+  "consumes": {
+    "power": 1.416,
+    "items": [
+      "beryllium/20",
+      "tungsten/5",
+      "silicon/5"
+    ]
+  },
+  "outputItem": "durasteel/1",
+  "requirements": [
+    "beryllium/150",
+    "tungsten/60"
+  ],
+  "research": {
+    "parent": "silicon-arc",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "basin"
+      }
+    ],
+    "requirements": [
+      "beryllium/600",
+      "tungsten/200"
+    ]
+  }
+}
