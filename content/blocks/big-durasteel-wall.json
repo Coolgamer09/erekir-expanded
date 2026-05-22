@@ -3,7 +3,7 @@
   "name": "Large Durasteel Wall",
   "description": "A larger, more durable section of durasteel walling. Spreads incoming damage across a wider area.",
   "size": 2,
-  "health": 3200,
+  "health": 5500,
   "category": "defense",
   "requirements": [
     "durasteel/35"
