@@ -1,6 +1,6 @@
 {
   "type": "UnitAssembler",
-  "name": "Flux Tank Ultrafabicator",
+  "name": "Laser Tank UltraFabricator",
   "size": 6,
   "health": 1100,
   "consumes": {
