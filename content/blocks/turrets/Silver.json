@@ -33,7 +33,7 @@
     "objectives": [
       {
         "type": "OnSector",
-        "preset": "interplanetary-accelerator"
+        "preset": "Aegis"
       }
     ],
     "requirements": [
