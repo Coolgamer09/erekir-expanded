@@ -3,16 +3,16 @@
   "name": "Fracture",
   "description": "Discharges tightly grouped bursts of heavy shells engineered to crack and shatter the armor plates of advancing assault units.",
   "size": 3,
-  "health": 1200,
+  "health": 1250,
   "range": 210,
-  "reload": 50,
+  "reload": 30,
   "shots": 5,
-  "shotDelay": 5.5,
+  "shotDelay": 8,
   "targetAir": false,
   "targetGround": true,
   "ammoTypes": {
     "tungsten": {
-      "speed": 7.0,
+      "speed": 7.5,
       "damage": 85,
       "width": 10,
       "height": 14,
@@ -20,14 +20,14 @@
       "knockback": 2.0
     },
     "durasteel": {
-      "speed": 7.5,
-      "damage": 150,
+      "speed": 8.0,
+      "damage": 135,
       "width": 12,
       "height": 16,
       "lifetime": 28,
-      "knockback": 40,
+      "knockback": 3.5,
       "pierce": true,
-      "pierceCap": 5
+      "pierceCap": 2
     }
   },
   "requirements": [
@@ -36,5 +36,18 @@
     "durasteel/40"
   ],
   "category": "turret",
-  "research": "silver"
+  "research": {
+    "parent": "silver",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "basin"
+      }
+    ],
+    "requirements": [
+      "tungsten/1500",
+      "silicon/1000",
+      "durasteel/400"
+    ]
+  }
 }
