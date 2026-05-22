@@ -1,7 +1,7 @@
 {
   "type": "tank",
   "name": "Quantum Tank",
-  "description": "A massive, heavily armored dreadnought tank. Fires unstable energy spheres that detonate on impact, dealing devastating area damage.",
+  "description": "A massive dreadnought tank firing area-of-effect quantum spheres. Equipped with an onboard nano-repair matrix.",
   "hitSize": 38,
   "health": 8500,
   "armor": 25,
@@ -10,6 +10,14 @@
   "omniMotion": false,
   "faceTarget": true,
   "outlineColor": "2c2d38",
+  "abilities": [
+    {
+      "type": "RepairAbility",
+      "amount": 30,
+      "reload": 60,
+      "radius": 0
+    }
+  ],
   "weapons": [
     {
       "name": "quantum-cannon",
