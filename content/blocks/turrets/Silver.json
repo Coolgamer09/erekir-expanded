@@ -1,0 +1,32 @@
+{
+  "type": "ItemTurret",
+  "name": "Sliver",
+  "description": "A rapid-firing light defense turret. Shaves down early-game ground swarms with high-velocity kinetic pellets.",
+  "size": 1,
+  "health": 550,
+  "range": 130.5,
+  "reload": 15.5,
+  "targetAir": false,
+  "targetGround": true,
+  "ammoTypes": {
+    "beryllium": {
+      "speed": 6.0,
+      "damage": 12.5,
+      "width": 5,
+      "height": 7,
+      "lifetime": 22
+    },
+    "graphite": {
+      "speed": 6.5,
+      "damage": 23.5,
+      "width": 6,
+      "height": 8,
+      "lifetime": 20
+    }
+  },
+  "requirements": [
+    "beryllium/40"
+  ],
+  "category": "turret",
+  "research": "breach"
+}
