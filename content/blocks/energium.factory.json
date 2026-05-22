@@ -3,7 +3,7 @@
   "name": "Energium Factory",
   "description": "Synthesizes raw materials into dense Energium fuel cores.",
   "size": 2,
-  "health": 400,
+  "health": 1400,
   "category": "crafting",
   "hasPower": true,
   "hasItems": true,
