@@ -1,0 +1,43 @@
+{
+  "type": "UnitAssembler",
+  "name": "Laser Tank Hypercharger",
+  "size": 7,
+  "health": 1600,
+  "consumes": {
+    "power": 12.0,
+    "liquid": "hydrazine/0.25"
+  },
+  "plans": [
+    {
+      "unit": "quantum-tank",
+      "time": 4200,
+      "requirements": [
+        "flux-tank/1",
+        "durasteel/150",
+        "silicon/250",
+        "energium/80"
+      ]
+    }
+  ],
+  "requirements": [
+    "durasteel/500",
+    "tungsten/800",
+    "silicon/600",
+    "surge-alloy/150"
+  ],
+  "category": "units",
+  "research": {
+    "parent": "laser-tank-ultrafabricator",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "caldera"
+      }
+    ],
+    "requirements": [
+      "durasteel/3000",
+      "silicon/4000",
+      "energium/1200"
+    ]
+  }
+}
