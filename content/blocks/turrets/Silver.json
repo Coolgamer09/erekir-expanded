@@ -2,7 +2,7 @@
   "type": "ItemTurret",
   "name": "Sliver",
   "description": "A rapid-firing light defense turret. Shaves down early-game ground swarms with high-velocity kinetic pellets.",
-  "size": 1,
+  "size": 2,
   "health": 400,
   "range": 130,
   "reload": 15,
@@ -33,7 +33,7 @@
     "objectives": [
       {
         "type": "OnSector",
-        "preset": "Aegis"
+        "preset": "aegis"
       }
     ],
     "requirements": [
