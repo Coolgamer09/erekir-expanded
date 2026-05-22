@@ -3,7 +3,7 @@
   "name": "Small Durasteel Wall",
   "description": "A basic defensive block made from reinforced durasteel alloy. Protects vital structures.",
   "size": 1,
-  "health": 800,
+  "health": 1580,
   "category": "defense",
   "requirements": [
     "durasteel/15"
