@@ -1,0 +1,12 @@
+{
+  "type": "liquid",
+  "name": "Hydrazine",
+  "description": "A highly volatile, hypergolic chemical compound. Acts as operational combat fuel for advanced laser tanks.",
+  "color": "ff9e59",
+  "barColor": "ff9e59",
+  "flammability": 2.5,
+  "explosiveness": 3.0,
+  "temperature": 0.6,
+  "viscosity": 0.4,
+  "heatCapacity": 0.2
+}
