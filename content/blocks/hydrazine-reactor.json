@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "name": "Hydrazine Reactor",
+  "description": "Synthesizes Hydrogen and Nitrogen into volatile Hydrazine operational fuel. Requires constant Cryogen coolant to prevent catastrophic core failure.",
+  "size": 3,
+  "health": 800,
+  "category": "crafting",
+  "hasLiquids": true,
+  "hasPower": true,
+  "craftTime": 60,
+  "consumes": {
+    "power": 3.5,
+    "liquids": [
+      "hydrogen/0.2",
+      "nitrogen/0.15",
+      "cyanogen/0.1" 
+    ]
+  },
+  "outputLiquid": "hydrazine/0.25",
+  "requirements": [
+    "durasteel/80",
+    "tungsten/150",
+    "silicon/100"
+  ],
+  "research": {
+    "parent": "energium-factory",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "peaks"
+      }
+    ],
+    "requirements": [
+      "durasteel/400",
+      "tungsten/750",
+      "silicon/500"
+    ]
+  }
+}
