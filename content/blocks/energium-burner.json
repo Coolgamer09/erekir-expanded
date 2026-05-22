@@ -1,0 +1,37 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Energium Burner",
+  "description": "Combusts refined Energium fuel cores under heavy water cooling to generate high-output electrical energy.",
+  "size": 2,
+  "health": 600,
+  "category": "power",
+  "hasLiquids": true,
+  "hasItems": true,
+  "itemDuration": 300,
+  "powerProduction": 2.916,
+  "consumes": {
+    "items": [
+      "energium/2"
+    ],
+    "liquid": "water/0.05"
+  },
+  "requirements": [
+    "durasteel/40",
+    "tungsten/80",
+    "silicon/60"
+  ],
+  "research": {
+    "parent": "energium-factory",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "peaks"
+      }
+    ],
+    "requirements": [
+      "durasteel/200",
+      "tungsten/400",
+      "silicon/300"
+    ]
+  }
+}
