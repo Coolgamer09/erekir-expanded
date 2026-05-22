@@ -1,0 +1,52 @@
+{
+  "type": "tank",
+  "name": "Laser Tank",
+  "description": "A swift, light assault tank that fires fast alternating laser bolts at ground targets.",
+  "hitSize": 12,
+  "health": 650,
+  "armor": 4,
+  "speed": 2.4,
+  "rotateSpeed": 3.5,
+  "omniMotion": false,
+  "faceTarget": true,
+  "outlineColor": "2c2d38",
+  "weapons": [
+    {
+      "name": "laser-cannon-left",
+      "x": -4,
+      "y": 1,
+      "shootY": 4,
+      "mirror": false,
+      "reload": 15,
+      "recoil": 1.5,
+      "shootSound": "laser",
+      "bullet": {
+        "type": "LaserBoltBulletType",
+        "damage": 25,
+        "speed": 5,
+        "lifetime": 22,
+        "backColor": "ec7bf2",
+        "frontColor": "ffffff"
+      }
+    },
+    {
+      "name": "laser-cannon-right",
+      "x": 4,
+      "y": 1,
+      "shootY": 4,
+      "mirror": false,
+      "reload": 15,
+      "recoil": 1.5,
+      "shootSound": "laser",
+      "firstShotDelay": 7.5,
+      "bullet": {
+        "type": "LaserBoltBulletType",
+        "damage": 25,
+        "speed": 5,
+        "lifetime": 22,
+        "backColor": "ec7bf2",
+        "frontColor": "ffffff"
+      }
+    }
+  ]
+}
