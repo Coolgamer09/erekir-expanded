@@ -1,7 +1,8 @@
 {
   "type": "UnitAssembler",
-  "name": "Tank Assembler",
+  "name": "Plasma Tank Assembler",
   "size": 5,
+  "health": 700,
   "consumes": {
     "power": 4.5,
     "liquid": "hydrazine/0.05"
