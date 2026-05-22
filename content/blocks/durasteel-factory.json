@@ -19,7 +19,9 @@
   "outputItem": "durasteel/1",
   "requirements": [
     "beryllium/150",
-    "tungsten/60"
+    "tungsten/60",
+    "graphite/150",
+    "silicon/50"
   ],
   "research": {
     "parent": "silicon-arc",
@@ -31,7 +33,9 @@
     ],
     "requirements": [
       "beryllium/600",
-      "tungsten/200"
+      "tungsten/240",
+      "graphite/600",
+      "silicon/200"
     ]
   }
 }
