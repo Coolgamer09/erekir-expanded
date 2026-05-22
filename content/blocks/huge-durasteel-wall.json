@@ -1,0 +1,28 @@
+{
+  "type": "ShieldWall",
+  "name": "Huge Durasteel Wall",
+  "description": "A massive endgame bastion that projects an energy shield to absorb heavy incoming fire. Requires constant energy input.",
+  "size": 3,
+  "health": 9505,
+  "category": "defense",
+  "hasPower": true,
+  "consumes": {
+    "power": 15
+  },
+  "shieldHealth": 1500,
+  "requirements": [
+    "durasteel/125"
+  ],
+  "research": {
+    "parent": "durasteel-wall-large",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "origin"
+      }
+    ],
+    "requirements": [
+      "durasteel/1250"
+    ]
+  }
+}
