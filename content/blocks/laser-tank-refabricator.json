@@ -1,7 +1,8 @@
 {
   "type": "UnitFactory",
-  "name": "laser Tank Refabricator",
+  "name": "Laser Tank Refabricator",
   "size": 3,
+  "health": 450,
   "consumes": {
     "power": 2.0
   },
