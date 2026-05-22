@@ -1,0 +1,45 @@
+{
+  "type": "UnitAssembler",
+  "name": "Laser Tank Singularity Loom",
+  "size": 8,
+  "health": 2500,
+  "consumes": {
+    "power": 25.0,
+    "liquid": "hydrazine/0.55"
+  },
+  "plans": [
+    {
+      "unit": "singularity-tank",
+      "time": 6000,
+      "requirements": [
+        "quantum-tank/1",
+        "durasteel/300",
+        "silicon/500",
+        "energium/200"
+      ]
+    }
+  ],
+  "requirements": [
+    "durasteel/1000",
+    "tungsten/1500",
+    "silicon/1200",
+    "surge-alloy/400",
+    "phase-fabric/200"
+  ],
+  "category": "units",
+  "research": {
+    "parent": "laser-tank-hypercharger",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "origin"
+      }
+    ],
+    "requirements": [
+      "durasteel/10000",
+      "silicon/15000",
+      "energium/5000",
+      "surge-alloy/2000"
+    ]
+  }
+}
