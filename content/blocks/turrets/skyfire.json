@@ -1,0 +1,44 @@
+{
+  "type": "ItemTurret",
+  "name": "Skyfire",
+  "description": "High-velocity tactical intercept system. Tracks down and locks onto fast-moving enemy flight lines with deadly homing munitions.",
+  "size": 3,
+  "health": 1500,
+  "range": 320,
+  "reload": 10,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "silicon": {
+      "type": "MissileBulletType",
+      "speed": 7.0,
+      "damage": 35,
+      "width": 8,
+      "height": 11,
+      "lifetime": 46,
+      "homingPower": 0.25,
+      "homingRange": 100,
+      "backColor": "86b0ff"
+    },
+    "surge-alloy": {
+      "type": "MissileBulletType",
+      "speed": 8.5,
+      "damage": 65,
+      "width": 9,
+      "height": 13,
+      "lifetime": 38,
+      "homingPower": 035,
+      "homingRange": 150,
+      "lightning": 5,
+      "lightningDamage": 15,
+      "backColor": "e8db74"
+    }
+  },
+  "requirements": [
+    "tungsten/300",
+    "silicon/250",
+    "oxide/120"
+  ],
+  "category": "turret",
+  "research": "glowspire"
+}
