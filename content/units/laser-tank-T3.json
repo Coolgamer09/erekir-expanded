@@ -1,7 +1,7 @@
 {
   "type": "tank",
   "name": "Flux Tank",
-  "description": "A heavy combat vehicle equipped with a high-intensity magnetic accelerator. Fires destructive electromagnetic slugs that pierce multiple targets.",
+  "description": "A heavy combat vehicle equipped with a high-intensity magnetic accelerator. Features built-in nano-repair systems.",
   "hitSize": 28,
   "health": 3200,
   "armor": 15,
@@ -10,6 +10,14 @@
   "omniMotion": false,
   "faceTarget": true,
   "outlineColor": "2c2d38",
+  "abilities": [
+    {
+      "type": "RepairAbility",
+      "amount": 15,
+      "reload": 60,
+      "radius": 0
+    }
+  ],
   "weapons": [
     {
       "name": "flux-cannon",
