@@ -1,0 +1,9 @@
+{
+  "type": "item",
+  "name": "Energium",
+  "description": "A highly unstable, dense energy crystal used as premium fuel for heavy generators.",
+  "color": "df84ff",
+  "explosiveness": 1.2,
+  "flammability": 0.5,
+  "radioactivity": 0.8
+}
