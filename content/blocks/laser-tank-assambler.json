@@ -1,0 +1,39 @@
+{
+  "type": "UnitAssembler",
+  "name": "Tank Assembler",
+  "size": 5,
+  "consumes": {
+    "power": 4.5,
+    "liquid": "hydrazine/0.05"
+  },
+  "plans": [
+    {
+      "unit": "plasma-tank",
+      "time": 1800,
+      "requirements": [
+        "laser-tank/1",
+        "durasteel/40",
+        "silicon/60"
+      ]
+    }
+  ],
+  "requirements": [
+    "durasteel/120",
+    "tungsten/200",
+    "silicon/150"
+  ],
+  "category": "units",
+  "research": {
+    "parent": "tank-refabricator",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "peaks"
+      }
+    ],
+    "requirements": [
+      "durasteel/600",
+      "silicon/750"
+    ]
+  }
+}
