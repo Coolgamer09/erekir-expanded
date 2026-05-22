@@ -1,6 +1,6 @@
 {
   "type": "UnitAssembler",
-  "name": "Tank Assembler",
+  "name": "PLasma Tank Assembler",
   "size": 5,
   "consumes": {
     "power": 4.5,
